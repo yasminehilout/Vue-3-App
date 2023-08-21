@@ -3,7 +3,8 @@ const app = Vue.createApp({
     data() {
         //return an options object
         return {
-            product: 'Socks'
+            product: 'Socks',
+            productDescription: 'A pair of warm, fuzzy socks'
         }
     }
 })
